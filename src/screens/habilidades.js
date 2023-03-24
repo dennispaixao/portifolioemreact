@@ -14,7 +14,7 @@ const Habilidades =()=>{
               
                 <div><div className="imgHtml"></div><small>Html </small></div>
                 <div><div className="imgCss"></div><small>CSS </small></div>
-                <div><div className="imgJavascript"></div><small>Javcscript </small></div>
+                <div><div className="imgJavascript"></div><small>Javascript </small></div>
                 <div><div className="imgNode"></div><small>Node </small></div>
                 <div><div className="imgReact"></div><small>React </small></div>
                 <div><div className="imgSass"></div><small>Sass </small></div>

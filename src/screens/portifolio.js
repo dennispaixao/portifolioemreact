@@ -9,7 +9,7 @@ const Portifolio =()=>{
        <>
         <Header />
         <div className='Portifolio'>
-        <div className='title'><h1> Portifólio</h1></div>
+        <div className='title'><h1> Portfólio</h1></div>
         <div class="linksportifolio">Meu github: <a href="https://github.com/dennispaixao">https://github.com/dennispaixao</a>
              codepen 1: <a href="https://codepen.io/dennispaixao">https://codepen.io/dennispaixao</a>
              codepen 2: <a href="https://codepen.io/dennis-paixao">https://codepen.io/dennis-paixao</a></div>
