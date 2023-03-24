@@ -20,6 +20,8 @@ const Habilidades =()=>{
                 <div><div className="imgSass"></div><small>Sass </small></div>
                 <div><div className="imgBootstrap"></div><small>Bootstrap </small></div>
                 <div><div className="imgTypescript"></div><small>Typescript </small></div>
+                <div><div className="imgPostgres"></div><small>Postgres </small></div>
+                <div><div className="imgMongoDb"></div><small>MongoDb </small></div>
                
             </div>
         </div>
