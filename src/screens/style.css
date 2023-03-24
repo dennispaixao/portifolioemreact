@@ -1,0 +1,122 @@
+@font-face {
+    font-family: Alkatra;
+    src: url("../assets/fonts/Alkatra-VariableFont_wght.ttf");
+  }
+*{
+    font-family: Alkatra;
+
+}
+
+.index{
+    display:flex;
+    flex-direction: row;
+}
+.index div{
+    width:30vw;
+    height:100vh;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding:20px;
+
+}
+.index .foto{
+    background-color: #222;
+    color:rgb(209, 209, 209);
+}
+.index .sobre{
+    width:70vw;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding-top: 100px;
+    line-height: 2;
+}
+.index div img{
+    width:80%;
+    border-radius: 50%;
+    box-shadow: 3px 6px 6px #222;
+}
+
+.SobreMim{
+    background-color: #fcfd9c;
+    padding:20px;
+    line-height: 1.8;
+}
+.Habilidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+    gap:20px
+}
+.Habilidades .habilidades-icons{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+}
+
+.Habilidades .habilidades-icons div div{
+    width:100px;
+    height:100px;
+    background-size: contain;
+  
+ 
+}
+.Habilidades .habilidades-icons div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.habilidades-icons .imgHtml{ background-image: url('../assets/img/html5.png');}
+.habilidades-icons .imgCss{ background-image: url('../assets/img/css-3.png');}
+.habilidades-icons .imgJavascript{ background-image: url('../assets/img/js.png')}
+.habilidades-icons .imgNode{ background-image: url('../assets/img/nodejs.png');}
+.habilidades-icons .imgReact{ background-image: url('../assets/img/react.png');}
+.habilidades-icons .imgPostgres{ background-image: url('../assets/img/postgre.png');}
+.habilidades-icons .imgSass{ background-image: url('../assets/img/sass.png');}
+.habilidades-icons .imgBootstrap{ background-image: url('../assets/img/bootstrap.png');}
+.habilidades-icons .imgTypescript{ background-image: url('../assets/img/typescript.png');}
+  
+
+.Portifolio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+}
+.linksportifolio{
+    display: flex;
+    flex-direction: column;
+}
+.Portifolio-items{
+    width:600px;
+}
+
+.Contato{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+
+}
+@media (max-width: 768px) {
+    .Portifolio-items{
+        width:90%;
+    }
+    .index{
+        flex-direction: column;
+    }
+    .index div{
+        width: 100% !important;
+    }
+    .index div img{
+        width:50%;
+    }
+  }
